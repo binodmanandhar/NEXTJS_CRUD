@@ -1,3 +1,3 @@
 # NEXTJS_CRUD
 
-##Next.js curd with AppWrite
+## Next.js curd with AppWrite
