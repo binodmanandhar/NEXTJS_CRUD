@@ -10,7 +10,7 @@ export async function createJobs(data: { title: string; description: string }) {
   try {
     const response = await database.createDocument(
       process.env.NEXT_PUBLIC_DATABASE_ID as string,
-      "jobs",
+      process.env.NEXT_PUBLIC_COLLECTION_ID as string,
       ID.unique(),
       data
     );
